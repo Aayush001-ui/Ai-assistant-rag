@@ -43,8 +43,8 @@ Upload a PDF → Ask a question → Get a contextual answer based on document co
 ##  Limitations
 
 - Supports one active document at a time  
-- Basic chunking (can be improved with overlap)  
-- No chat memory (stateless responses)  
+- Basic chunking 
+- No chat memory  
 
 ##  Future Improvements
 
@@ -52,11 +52,6 @@ Upload a PDF → Ask a question → Get a contextual answer based on document co
 - Chat memory (conversation context)  
 - Improved chunking strategy  
 - Better UI/UX  
-
-##  Screenshots
-
-(Add screenshots of your UI here before uploading to GitHub)
-
 
 ##  Learning Outcome
 
