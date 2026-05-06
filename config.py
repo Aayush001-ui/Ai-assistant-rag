@@ -1,0 +1,5 @@
+OLLAMA_BASE_URL = "http://localhost:11434"
+OLLAMA_MODEL = "llama3"
+
+TOP_K_RESULTS = 3
+CHUNK_SIZE = 500

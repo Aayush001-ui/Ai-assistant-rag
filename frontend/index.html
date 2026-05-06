@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <h2>🤖 AI Assistant</h2>
+
+    <div id="chat-box"></div>
+
+    <div class="input-wrapper">
+        <div class="input-area">
+
+            <button type="button" class="plus-btn" onclick="toggleMenu()">+</button>
+
+            <input type="text" id="user-input" placeholder="Ask something..." />
+
+            <button type="button" onclick="sendMessage()">Send</button>
+
+        </div>
+
+        <div id="upload-menu" class="upload-menu">
+            <div onclick="selectPDF()">📄 Upload Document</div>
+            <div onclick="selectImage()">🖼️ Upload Image</div>
+        </div>
+    </div>
+
+</div>
+
+<input type="file" id="pdf-upload" style="display:none" />
+
+
+<script src="script.js" defer ></script>
+
+</body>
+</html>
